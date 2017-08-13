@@ -1,44 +1,220 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="204" alt="Логотип барбершопа «Бородинский»">
+
+<head>
+  <meta charset="utf-8">
+  <title>Страница каталога</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+          <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
         </a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li class="login-link">Вход</li>
-        </ul>
-      </nav>
-    </header>
-    <footer class="main-footer">
-      <p class="footer-contacts">
-        Барбершоп "Бородинский"<br> Адрес: г.Санкт-Пренбург, ул. б. Конюшенная, д. 19,8<br>
-        <a class="footer-adress-map" href="#">как нас найти?</a><br> Телефон: +7 (495) 666-02-66</p>
-      <div class="footer-social">
-        <b>давайте дружить!</b>
-        <ul>
-          <li><a class="social-button" href="#">fb</a></Li>
-          <li><a class="social-button" href="#">vk</a></Li>
-          <li><a class="social-button" href="#">tw</a></Li>
-        </ul>
-      </div>
-      <p class="footer-copyright">
-        разработано:<a class="button" href="htmlacademy.ru">htmlacademy</a>
-      </p>
-    </footer>
+      <ul class="site-navigation">
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="price.html">Прайс-лист</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="login-link">Вход</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="page-title">Средства для ухода</h1>
+    <ul class="breadcrumbs">
+      <li><a class="breadcrumbs-navigation" href="#">главная</a></li>
+      <li><a class="breadcrumbs-navigation" href="#">магазин</a></li>
+      <li><a class="breadcrumbs-navigation-current"></a>Средства для ухода</li>
+    </ul>
+    <section class="product-photoes">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <form class="filter" method="get" action="#">
+        <fieldset>
+          <legend>Производители</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="a" checked>a
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="b">b
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="c" checked>c
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="d">d
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="f">f
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="e" checked>e
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="x">x
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="y" checked>y
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="z">z
+            </li>
+
+          </ul>
+        </fieldset>
+        <button class="filter-button" type="submit">Показать</button>
+      </form>
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Список средств длч ухода</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <h3>
+                <a href="catalog-item.html">
+                  <span class="catalog-catgory">Набор для путешествий</span>
+                  <span class="catalog-item-title">"Baxter"</span>
+                </a>
+              </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+                  <img src="img/pproduct-1.svg" width="468" height="404" alt="Набор для путешествий»">
+                  </a>
+          </p>
+          <p class="product-price>">
+            <b>2 500 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <h3>
+        <a href="catalog-item.html">
+          <span class="catalog-catgory">Набор для путешествий2</span>
+          <span class="catalog-item-title">"Baxter2"</span>
+        </a>
+      </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+          <img src="img/pproduct-2.svg" width="468" height="404" alt="Набор2 для путешествий»">
+          </a>
+          </p>
+          <p class="product-price>">
+            <b>2 500 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <h3>
+        <a href="catalog-item.html">
+          <span class="catalog-catgory">Набор для путешествий3</span>
+          <span class="catalog-item-title">"Baxter3"</span>
+        </a>
+      </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+          <img src="img/pproduct-3.svg" width="468" height="404" alt="Набор для путешествий3»">
+          </a>
+          </p>
+          <p class="product-price>">
+            <b>2 500 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <h3>
+        <a href="catalog-item.html">
+          <span class="catalog-catgory">Набор для путешествий4</span>
+          <span class="catalog-item-title">"Baxter4"</span>
+        </a>
+      </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+          <img src="img/pproduct-4.svg" width="468" height="404" alt="Набор для путешествий4»">
+          </a>
+          </p>
+          <p class="product-price>">
+            <b>2 500 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <h3>
+        <a href="catalog-item.html">
+          <span class="catalog-catgory">Набор для путешествий5</span>
+          <span class="catalog-item-title">"Baxter5"</span>
+        </a>
+      </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+          <img src="img/pproduct-5.svg" width="468" height="404" alt="Набор для путешествий5»">
+          </a>
+          </p>
+          <p class="product-price>">
+            <b>2 100 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <h3>
+        <a href="catalog-item.html">
+          <span class="catalog-catgory">Набор для путешествий6</span>
+          <span class="catalog-item-title">"Baxter6"</span>
+        </a>
+      </h3>
+
+          <p class="catalog-item-image">
+            <a href="catalog-item.html">
+          <img src="img/pproduct-6.svg" width="468" height="404" alt="Набор для путешествий6»">
+          </a>
+          </p>
+          <p class="product-price>">
+            <b>2 000 $</b>
+            <a class="button" href="#">Купить</a>
+          </p>
+        </li>
+
+      </ul>
+    </section>
+    <ul class="pagination-list">
+      <li class="pagination-item"><a href="#">1</a></li>
+      <li class="pagination-item pagination-item-current"><a></a>2</li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">4</a></li>
+    </ul>
+
+  </main>
+  <footer class="main-footer">
+    <p class="footer-contacts">
+      Барбершоп "Бородинский"<br> Адрес: г.Санкт-Пренбург, ул. б. Конюшенная, д. 19,8<br>
+      <a class="footer-adress-map" href="#">как нас найти?</a><br> Телефон: +7 (495) 666-02-66</p>
+    <div class="footer-social">
+      <b>давайте дружить!</b>
+      <ul>
+        <li><a class="social-button" href="#">fb</a></Li>
+        <li><a class="social-button" href="#">vk</a></Li>
+        <li><a class="social-button" href="#">tw</a></Li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      разработано:<a class="button" href="htmlacademy.ru">htmlacademy</a>
+    </p>
+  </footer>
 
 
-  </body>
+</body>
+
 </html>
