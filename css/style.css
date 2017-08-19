@@ -1,0 +1,23 @@
+  body {
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    font-weight: normal;
+    font-family: PTSans, Arial, sans-serif;
+  }
+
+  .event-title {
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
+    font-weight: normal;
+    font-family: PTSans, Arial, sans-serif;
+  }
+
+  .features-title .product-title {
+    font-size: 30px;
+    line-height: 42px;
+    color: white;
+    font-weight: normal;
+    font-family: PTSans, Arial, sans-serif;
+  }
