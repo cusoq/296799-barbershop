@@ -11,7 +11,7 @@
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
-        <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+        <img src="img/logo-inner111x24.png" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
       </a>
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
@@ -21,7 +21,7 @@
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
       <ul class="user-navigation">
-        <li class="login-link">Вход</li>
+        <li class="login-link"><button class="btn" autofocus>Вход</button></li>
       </ul>
     </nav>
   </header>
@@ -39,22 +39,22 @@
           <legend>Производители</legend>
           <ul>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="a" checked>a
+              <input class="visually-hidden filter-input filter-input-checkbox" id="Baxter-of-California" type="checkbox" name="a" checked><label for="Baxter-of-California">Baxter of California</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="b">b
+              <input class="visually-hidden filter-input filter-input-checkbox" id="Mr-Natty" type="checkbox" name="b"><label for="Mr-Natty">Mr Natty</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="c" checked>c
+              <input class="visually-hidden filter-input filter-input-checkbox" id="Suavecito" type="checkbox" name="c" checked><label for="Suavecito">Suavecito</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="d">d
+              <input class="visually-hidden filter-input filter-input-checkbox" id="Malin+Goetz" type="checkbox" name="d"><label for="Malin+Goetz">Malin+Goetz</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="f">f
+              <input class="visually-hidden filter-input filter-input-checkbox" id="Murray’s" type="checkbox" name="f"><label for="Murray’s">Murray’s</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="e" checked>e
+              <input class="visually-hidden filter-input filter-input-checkbox" id="American-Crew" type="checkbox" name="e" checked><label for="American-Crew">American Crew</label>
             </li>
           </ul>
         </fieldset>
@@ -62,13 +62,13 @@
           <legend>Группы товаров</legend>
           <ul>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="x">x
+              <input class="visually-hidden filter-input filter-input-radio" id="Shaving-stuff" type="radio" name="product-group" value="x"><label for="Shaving-stuff">Бритвенные  принадлежности</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="y" checked>y
+              <input class="visually-hidden filter-input filter-input-radio" id="Care-stuff" type="radio" name="product-group" value="y" checked><label for="Care-stuff">Средства для ухода</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="z">z
+              <input class="visually-hidden filter-input filter-input-radio" id="stuff" type="radio" name="product-group" value="z"><label for="stuff">Аксессуары</label>
             </li>
           </ul>
         </fieldset>
@@ -144,9 +144,9 @@
             </p>
           </a>
           <p class="product-price>">
-              <b>500 ₽</b>
-              <a class="button" href="#">Купить</a>
-            </p>
+            <b>500 ₽</b>
+            <a class="button" href="#">Купить</a>
+          </p>
         </li>
         <li class="catalog-item">
           <a href="catalog-item.html">
